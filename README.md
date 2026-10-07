@@ -10,12 +10,11 @@ In particular, the section *Notebook Options* contains all the parameters one
 might wish to change before running the computations themselves.
 
 For compatibility reasons, the results are given in a plain text file, but the
-easiest way to access them is through the relative `*.mc` file, via the command
+easiest way to access them is through the corresponding `*.mc` file, via the command
 
 ``` mathematica
-foo=Uncompress@Import["foo.mc"]
+foo=Uncompress@Import["foo.mc","String"]
 ```
-
 
 This will store the continuous lax matrices as an association, so that, for
 instance U^{(3)} can be accessed by
