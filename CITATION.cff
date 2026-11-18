@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "Continuum limits of Lax pairs for the ABS list"
+type: software
+authors:
+  - family-names: Vallenzasca
+    given-names: Davide
